@@ -1,0 +1,68 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>17.  Discriminant Analysis: Part III</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m40737</md:content-id>
+  <md:title>17.  Discriminant Analysis: Part III</md:title>
+  <md:abstract/>
+  <md:uuid>427aecc5-9dbe-4f99-a370-1ec16973a810</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-350"><media id="id27091673" alt=""><image src="../../media/ncpealogo.gif" mime-type="image/gif"/></media>
+
+</para><note id="eip-322">This chapter is published by <link url="http://www.ncpeapublications.org/books.html">NCPEA Press</link> and is presented as an NCPEA/Connexions publication "print on demand book." Each chapter has been peer-reviewed, accepted, and endorsed by the National Council of Professors of Educational Administration (NCPEA) as a significant contribution to the scholarship and practice of education administration.
+
+</note><list id="eip-206" list-type="labeled-item"><title><emphasis effect="underline">About the Authors</emphasis></title><item><emphasis>John R. Slate</emphasis> is a Professor at Sam Houston State University where he teaches Basic and Advanced Statistics courses, as well as professional writing, to doctoral students in Educational Leadership and Counseling.  His research interests lie in the use of educational databases, both state and national, to reform school practices.  To date, he has chaired and/or served over 100 doctoral student dissertation committees.  Recently, Dr. Slate created a website (<link url="www.writingandstatisticalhelp">Writing and Statistical Help</link>) to assist students and faculty with both statistical assistance and in editing/writing their dissertations/theses and manuscripts.</item>
+	<item><emphasis>Ana Rojas-LeBouef </emphasis> is a Literacy Specialist at the Reading Center at Sam Houston State University where she teaches developmental reading courses.  Dr. LeBoeuf recently completed her doctoral degree in Reading, where she conducted a 16-year analysis of Texas statewide data regarding the achievement gap.  Her research interests lie in examining the inequities in achievement among ethnic groups.  Dr. Rojas-LeBouef also assists students and faculty in their writing and statistical needs on the Writing and Statistical Help website.
+</item>
+</list><para id="id1169490361265"><emphasis>The third table in the SPSS output for this canonical discriminant analysis is the Stepwise Statistics table. In this example, five of the 10 variables differentiated boys from girls.</emphasis></para>
+    <para id="id1169458170634"><link url="16.1.png/image" window="new">
+		<media id="media1" alt="">
+			<image mime-type="image/png" src="../../media/16.1.png" id="figure1"/>
+		</media>
+	</link></para>
+    <para id="id1169505202858"><emphasis>The next two tables indicate which variables remained in the discriminant analysis and which variables were not utilized. The variables that were not utilized did not contribute statistically significantly to differentiating boys from girls. The process of identifying variables in the analysis and variables not in the analysis is depicted for each of the five steps.</emphasis></para>
+    <para id="id1169469105618"><link url="16.2.png/image" window="new">
+		<media id="media2" alt="">
+			<image mime-type="image/png" src="../../media/16.2.png" id="figure2"/>
+		</media>
+	</link></para>
+    <para id="id1169468163496"><emphasis>If you recall from the beginning of this chapter, one of the assumptions underlying use of a discriminant analysis procedure is tolerance values. The closer to 0 the tolerance values are, the more likely it is that the matrix is ill-conditioned and that overlap exists among the variables in the equation. In Step 5 below, you will note that all of the tolerance values are above 0, ranging from a low of .478 for Verbal 1 (Information) to a high of .880 for Performance 2 (Coding). Therefore, this assumption has not been violated.</emphasis></para>
+    <para id="id1169490049834"><link url="16.3.png/image" window="new">
+		<media id="media3" alt="">
+			<image mime-type="image/png" src="../../media/16.3.png" id="figure3"/>
+		</media>
+	</link></para>
+    <para id="id1169466882720"><emphasis>Under the Wilks’ lambda table is a Summary of Canonical Discriminant Functions table labeled Eigenvalues. In this table is the canonical correlation, or <emphasis effect="italics">R</emphasis><emphasis effect="italics">c</emphasis>, which in this example is .325. This <emphasis effect="italics">R</emphasis><emphasis effect="italics">c</emphasis> value reflects the correlation between the groups and the discriminant function formed by the five variables that were statistically significant. The<emphasis effect="italics"> R</emphasis><emphasis effect="italics">c</emphasis> may be interpreted as a Pearson correlation of the discriminant scores with the grouping variable. This information will be reported in your Results section. </emphasis></para>
+    <para id="id1169484594227"><link url="16.4.png/image" window="new">
+		<media id="media4" alt="">
+			<image mime-type="image/png" src="../../media/16.4.png" id="figure4"/>
+		</media>
+	</link></para>
+    <para id="id1169474546471"><emphasis>In the table below the Eigenvalues one is a table labeled Wilks’ Lambda. This measure is what is used to determine whether the discriminant function is statistically significant in differentiating group membership. In our example, the Wilks’ Lambda of .894 is statistically significant at the .001 level. This result means that the discriminant function, consisting of five variables, statistically significantly differentiated the group of boys from the group of girls. This information will be reported in the Results section.</emphasis></para>
+    <para id="id1169485026266"><link url="16.5.png/image" window="new">
+		<media id="media5" alt="">
+			<image mime-type="image/png" src="../../media/16.5.png" id="figure5"/>
+		</media>
+	</link></para>
+    <para id="id1169467724838"><emphasis>The table immediately below the Wilks’ Lambda table is labeled Standardized Canonical Discriminant Function Coefficients. These values are also referred to as Standardized Discriminant Coefficients. Contained in this table are the values that depict the relative importance of each variable in differentiating group membership. These coefficients are comparable to Beta Weights in multiple regression. In this example, Verbal 4 (Vocabulary) is more important, with a coefficient of .688, than is Performance 2 (Coding), with a coefficient of .483, in differentiating boys from girls. These coefficients should be provided in your Results section.</emphasis></para>
+    <para id="id1169467861640"><link url="16.6.png/image" window="new">
+		<media id="media6" alt="">
+			<image mime-type="image/png" src="../../media/16.6.png" id="figure6"/>
+		</media>
+	</link></para>
+    <para id="id1169470138962"><emphasis>Next, we examine the table underneath the Standardized Canonical Discriminant Function Coefficients, the one labeled as Structure Matrix. Each of these values depicts the relationship of that variable with the discriminant function scores. Each value is analogous to a correlation coefficient. In the example below, Verbal 3 (Arithmetic) has a correlation of .59 with the discriminant function scores. Similarly, Performance 2 (Coding) and Verbal 4 (Vocabulary) have correlations of .559 and .517, respectively, with the discriminant function scores. These values may be interpreted as factor loadings in assigning a name to the discriminant function. As such, the first three variables just mentioned contribute more to the discriminant function than does the variable of Performance 5 (Object Assembly).</emphasis></para>
+    <para id="id1169491815178"><link url="16.7.png/image" window="new">
+		<media id="media7" alt="">
+			<image mime-type="image/png" src="../../media/16.7.png" id="figure7"/>
+		</media>
+	</link></para>
+    <para id="id1169474941707"><emphasis>Under this table is a table labeled Functions at Group Centroids. These values are z-scores, with a <emphasis effect="italics">M</emphasis> of 0 and a <emphasis effect="italics">SD</emphasis> of 1. The group centroid indicates the most typical location of any person from a particular group. For this example, the group centroid for boys is .34 and the group centroid for girls is -.347. Using these values we can compare how far apart boys and girls are differentiated by the statistically significant discriminant function in our example. The further apart these two means or centroids are, the better the separation or differentiation between the two groups. The centroids should be reported in the Results section.</emphasis></para>
+    <para id="id1169466893447"><link url="16.8.png/image" window="new">
+		<media id="media8" alt="">
+			<image mime-type="image/png" src="../../media/16.8.png" id="figure8"/>
+		</media>
+	</link></para>
+    <para id="id1169458192538"><emphasis>You have now successfully conducted a canonical discriminant analysis. </emphasis></para>
+  </content>
+</document>

@@ -1,0 +1,71 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>15. Discriminant Analysis: Part I</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m40735</md:content-id>
+  <md:title>15. Discriminant Analysis: Part I</md:title>
+  <md:abstract/>
+  <md:uuid>990b3904-2beb-48de-9cc0-180131e44e78</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-292"><media id="id27091673" alt=""><image src="../../media/ncpealogo.gif" mime-type="image/gif"/></media>
+
+</para><note id="eip-702">This chapter is published by <link url="http://www.ncpeapublications.org/books.html">NCPEA Press</link> and is presented as an NCPEA/Connexions publication "print on demand book." Each chapter has been peer-reviewed, accepted, and endorsed by the National Council of Professors of Educational Administration (NCPEA) as a significant contribution to the scholarship and practice of education administration.
+
+</note><list id="eip-871" list-type="labeled-item"><title><emphasis effect="underline">About the Authors</emphasis></title><item><emphasis>John R. Slate</emphasis> is a Professor at Sam Houston State University where he teaches Basic and Advanced Statistics courses, as well as professional writing, to doctoral students in Educational Leadership and Counseling.  His research interests lie in the use of educational databases, both state and national, to reform school practices.  To date, he has chaired and/or served over 100 doctoral student dissertation committees.  Recently, Dr. Slate created a website (<link url="www.writingandstatisticalhelp">Writing and Statistical Help</link>) to assist students and faculty with both statistical assistance and in editing/writing their dissertations/theses and manuscripts.</item>
+	<item><emphasis>Ana Rojas-LeBouef </emphasis> is a Literacy Specialist at the Reading Center at Sam Houston State University where she teaches developmental reading courses.  Dr. LeBoeuf recently completed her doctoral degree in Reading, where she conducted a 16-year analysis of Texas statewide data regarding the achievement gap.  Her research interests lie in examining the inequities in achievement among ethnic groups.  Dr. Rojas-LeBouef also assists students and faculty in their writing and statistical needs on the Writing and Statistical Help website.
+</item>
+</list><para id="id1171732422501"><emphasis>Now that we have ascertained the assumptions underlying use of a discriminant analysis procedure, we will begin the steps. </emphasis></para>
+    
+    <para id="id1171742638408"><emphasis>Click on Analyze</emphasis></para>
+    <para id="id1171743206843"><emphasis>Click on Classify</emphasis></para>
+    <para id="id1171732177518"><emphasis>Click on Discriminant</emphasis></para>
+    <para id="id1171743596714"><link url="14.1.png/image" window="new">
+		<media id="media1" alt="">
+			<image mime-type="image/png" src="../../media/14.1.png" id="figure1"/>
+		</media>
+	</link></para>
+    <para id="id1171771659265"><emphasis>The following screen will then appear. Grouping variable is your independent variable. Remember that in our example that gender is our independent or grouping variable. </emphasis></para>
+    <para id="id1171749047332"><link url="14.2.png/image" window="new">
+		<media id="media2" alt="">
+			<image mime-type="image/png" src="../../media/14.2.png" id="figure2"/>
+		</media>
+	</link></para>
+    <para id="id1171739225700"><emphasis>Highlight gender and send it into the Grouping variable cell. When you do so, you will note that after Gender is a set of () with question marks. Click on Define Range.</emphasis></para>
+    <para id="id1171743470342"><link url="14.3.png/image" window="new">
+		<media id="media3" alt="">
+			<image mime-type="image/png" src="../../media/14.3.png" id="figure3"/>
+		</media>
+	</link></para>
+    <para id="id1171760594630"><emphasis>After clicking on Define Range, the following screen will appear: For the Minimum box, we will type in the number 1 because it represents boys. We will type in the number 2 in the Maximum box because it represents girls.</emphasis></para>
+    <para id="id1171749102630"><link url="14.4.png/image" window="new">
+		<media id="media4" alt="">
+			<image mime-type="image/png" src="../../media/14.4.png" id="figure4"/>
+		</media>
+	</link></para>
+    <para id="id1171738146113"><emphasis>After typing in 1 and 2, then click on Continue.</emphasis></para>
+    <para id="id1171732394085"><link url="14.5.png/image" window="new">
+		<media id="media5" alt="">
+			<image mime-type="image/png" src="../../media/14.5.png" id="figure5"/>
+		</media>
+	</link></para>
+    <para id="id1171732361191"><emphasis>Next we will send over our 10 dependent variables, the 10 subscales, to the Independents box. Highlight Performance 1 through Verbal 5; click on the middle arrow; send them to the Independents box.</emphasis></para>
+    <para id="id1171773317977"><link url="14.6.png/image" window="new">
+		<media id="media6" alt="">
+			<image mime-type="image/png" src="../../media/14.6.png" id="figure6"/>
+		</media>
+	</link></para>
+    <para id="id1171744313539"><emphasis>The screen should now look like the one below:</emphasis></para>
+    <para id="id1171748840482"><link url="14.7.png/image" window="new">
+		<media id="media7" alt="">
+			<image mime-type="image/png" src="../../media/14.7.png" id="figure7"/>
+		</media>
+	</link></para>
+    <para id="id1171749021597"><emphasis>Next we will change the specific type of discriminant analysis from the default of Enter Independents Together to Use Stepwise Method.</emphasis></para>
+    <para id="id1171747977069"><link url="14.8.png/image" window="new">
+		<media id="media8" alt="">
+			<image mime-type="image/png" src="../../media/14.8.png" id="figure8"/>
+		</media>
+	</link></para>
+  </content>
+</document>

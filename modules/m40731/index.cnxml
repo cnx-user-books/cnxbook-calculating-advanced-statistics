@@ -1,0 +1,89 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>13. Multiple Analysis of Variance: Part III</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m40731</md:content-id>
+  <md:title>13. Multiple Analysis of Variance: Part III</md:title>
+  <md:abstract/>
+  <md:uuid>af989e65-6eb2-4580-9a92-33420fbdfc68</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-910"><media id="id27091673" alt=""><image src="../../media/ncpealogo.gif" mime-type="image/gif"/></media>
+
+</para><note id="eip-222">This chapter is published by <link url="http://www.ncpeapublications.org/books.html">NCPEA Press</link> and is presented as an NCPEA/Connexions publication "print on demand book." Each chapter has been peer-reviewed, accepted, and endorsed by the National Council of Professors of Educational Administration (NCPEA) as a significant contribution to the scholarship and practice of education administration.
+
+</note><list id="eip-531"><title><emphasis effect="underline">About the Authors</emphasis></title><item><emphasis>John R. Slate</emphasis> is a Professor at Sam Houston State University where he teaches Basic and Advanced Statistics courses, as well as professional writing, to doctoral students in Educational Leadership and Counseling.  His research interests lie in the use of educational databases, both state and national, to reform school practices.  To date, he has chaired and/or served over 100 doctoral student dissertation committees.  Recently, Dr. Slate created a website (<link url="www.writingandstatisticalhelp">Writing and Statistical Help</link>) to assist students and faculty with both statistical assistance and in editing/writing their dissertations/theses and manuscripts.</item>
+	<item><emphasis>Ana Rojas-LeBouef </emphasis> is a Literacy Specialist at the Reading Center at Sam Houston State University where she teaches developmental reading courses.  Dr. LeBoeuf recently completed her doctoral degree in Reading, where she conducted a 16-year analysis of Texas statewide data regarding the achievement gap.  Her research interests lie in examining the inequities in achievement among ethnic groups.  Dr. Rojas-LeBouef also assists students and faculty in their writing and statistical needs on the Writing and Statistical Help website.
+</item>
+</list><para id="id1164316781198"><emphasis>Now that you are in the SPSS output screen, your screen should look like the following: Your first table is titled Between-Subjects Factors and it is entirely redundant with the table immediately below it. The column of n in the Between-Subjects Factors table is duplicated in the Descriptive Statistics table. Therefore, we will not use the Between-Subjects Factors table.</emphasis></para>
+    
+    <para id="id1164303072214"><link url="12.1.png/image" window="new">
+		<media id="media1" alt="">
+			<image mime-type="image/png" src="../../media/12.1.png" id="figure1"/>
+		</media>
+	</link></para>
+    <para id="id1164303784796"><emphasis>Focusing on the Descriptive Statistics table will show you a column for the <emphasis effect="italics">M</emphasis>, for the <emphasis effect="italics">SD</emphasis>, and for the sample size, <emphasis effect="italics">n</emphasis>. This information has been provided to you for each of the four dependent variables for each of the three groups. This information will be used in your Results section and should be kept.</emphasis></para>
+    <para id="id3521341"><link url="12.2.png/image" window="new">
+		<media id="media2" alt="">
+			<image mime-type="image/png" src="../../media/12.2.png" id="figure2"/>
+		</media>
+	</link></para>
+    <para id="id1164306347986"><emphasis>Underneath the Descriptive Statistics table is the Box’s Test of Equality of Covariance Matrices. The information in this box involves checking one of the assumptions underlying use of a MANOVA procedure. The Sig. value in this box should be greater than .05 if the assumption is met. In the example below, the Sig. value is .234 which means that this particular assumption has been met. Readers should be informed whether the Box’s <emphasis effect="italics">M</emphasis> assumption was met or was violated. See Field (2010) for a detailed explanation of Box’s <emphasis effect="italics">M</emphasis> and the use of a MANOVA, even when this assumption is violated.</emphasis></para>
+    <para id="id1164303080047"><link url="12.3.png/image" window="new">
+		<media id="media3" alt="">
+			<image mime-type="image/png" src="../../media/12.3.png" id="figure3"/>
+		</media>
+	</link></para>
+    <para id="id1164308682236"><emphasis>Underneath the Box’s Test of Equality of Covariance Matrices is the Multivariate Tests table. This table is important because it indicates whether or not a statistically significant difference is present among the reading groups (i.e., our independent variable) in the aggregated dependent variable (i.e., aggregated Verbal 1 through Verbal 4). For our purposes, we will use Wilks’ Lambda to determine whether or not a difference is present. In this example, a statistically significant difference is present.</emphasis></para>
+    <para id="id1164308379217"><link url="12.4.png/image" window="new">
+		<media id="media4" alt="">
+			<image mime-type="image/png" src="../../media/12.4.png" id="figure4"/>
+		</media>
+	</link></para>
+    <para id="id1164302898935"><emphasis>Next, the Levene’s Test of Equality of Error Variances table is examined. This table involves checking the assumption that the variability is consistent within each dependent variable for each cell in the research design. The Sig. value in each row must be greater than .05 for each assumption to be met. In the table below, the assumption of equality of error variances is met for all four dependent variables as the Sig. values range from .249 to .651. Readers should be informed that this assumption for each dependent variable was met or was not met. See Field (2010) for a detailed discussion regarding Levene’s Test and the robustness of MANOVA, even when this assumption is violated.</emphasis></para>
+    <para id="id1164303893191"><link url="12.5.png/image" window="new">
+		<media id="media5" alt="">
+			<image mime-type="image/png" src="../../media/12.5.png" id="figure5"/>
+		</media>
+	</link></para>
+    <para id="id1164314635064"><emphasis>Underneath the Levene’s Test of Equality table is the Tests of Between-Subjects Effects table. Contained in this table are the univariate ANOVAs regarding whether the reading groups differ on each of the four dependent variables. The Wilks’ Lambda simply indicated whether an overall difference across the aggregated dependent variables was present. It did not provide information on whether the difference was for one, two, three, or all four of the dependent variables. </emphasis></para>
+    <para id="id1561386"><link url="12.6.png/image" window="new">
+		<media id="media6" alt="">
+			<image mime-type="image/png" src="../../media/12.6.png" id="figure6"/>
+		</media>
+	</link></para>
+    <para id="id7627291"><emphasis>Find the row section that begins with the name of the independent variable. In our case, the independent variable is labeled group. Each row in this group section is a separate analysis of variance result. Examining the Sig. column for our four rows shows that each univariate ANOVA yielded a statistically significant result.</emphasis></para>
+    <para id="id1164304187709"><link url="12.7.png/image" window="new">
+		<media id="media7" alt="">
+			<image mime-type="image/png" src="../../media/12.7.png" id="figure7"/>
+		</media>
+	</link></para>
+    <para id="id1164303916177"><emphasis>These results may be interpreted to mean that a statistically significant difference was present for Verbal 1, for Verbal 1, for Verbal 3, and for Verbal 4 as a function of the reading group. The effect size information for each statistically significant difference is present in the last column, the one labeled Partial Eta Squared. Partial eta squared, or <emphasis effect="italics">n</emphasis><sup>2</sup>, is the effect size metric provided to you in the SPSS output. To interpret whether it is small, moderate, or large, see Cohen (1988).</emphasis></para>
+    <para id="id1164303087828"><link url="12.8.png/image" window="new">
+		<media id="media8" alt="">
+			<image mime-type="image/png" src="../../media/12.8.png" id="figure8"/>
+		</media>
+	</link></para>
+    <para id="id1164303120856"><emphasis>Because a statistically significant difference is present for each dependent variable, post hoc procedures must be examined to determine if all groups differ from each other or if only some of the groups differ. Post hoc procedure information is provided in the Multiple Comparisons table. The arrow below is pointed toward the specific type of post hoc we requested. </emphasis></para>
+    <para id="id1164307700972"><link url="12.9.png/image" window="new">
+		<media id="media9" alt="">
+			<image mime-type="image/png" src="../../media/12.9.png" id="figure9"/>
+		</media>
+	</link></para>
+    <para id="id1164303805774"><emphasis>The most important column in this post hoc table is the Sig. column. For a pairwise comparison to be statistically significant, the Sig. value must be .05 or below. In the example below for the Verbal 1 set of comparisons, Excellent Readers did not differ from Good Readers, however, Excellent readers did differ from Extremely Poor Readers.</emphasis></para>
+    <para id="id1164303859850"><link url="12.10.png/image" window="new">
+		<media id="media10" alt="">
+			<image mime-type="image/png" src="../../media/12.10.png" id="figure10"/>
+		</media>
+	</link></para>
+    <para id="id1164303868672"><emphasis>Readers should note that only three pairwise comparisons are unique in the table for each dependent variable. SPSS, however, provides information on six pairwise comparisons. When three groups are present, as they are in this example, row 1, row 2, and row 4 are unique. Row 1 is Excellent Reader compared to Good Reader. Row 2 is Excellent Reader compared to Extremely Poor Reader. Row 4 is Good Reader compared to Extremely Poor Reader.</emphasis></para>
+    
+    <para id="id1164315620755"><link url="12.11.png/image" window="new">
+		<media id="media11" alt="">
+			<image mime-type="image/png" src="../../media/12.11.png" id="figure11"/>
+		</media>
+	</link></para>
+    <para id="id7918464"><emphasis>Each of the four dependent variables in this example have post hoc procedures calculated for them and are present in the table above.</emphasis></para>
+    <para id="id1164303814505"><emphasis>All of the useful information present in the SPSS output for the MANOVA procedure has now been covered.</emphasis></para>
+  </content>
+</document>

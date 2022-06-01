@@ -1,0 +1,87 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>19. Multiple Regression: Part I</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m40739</md:content-id>
+  <md:title>19. Multiple Regression: Part I</md:title>
+  <md:abstract/>
+  <md:uuid>d308c8c9-98b9-4776-9cb7-c0a419e9832f</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-988"><media id="id27091673" alt=""><image src="../../media/ncpealogo.gif" mime-type="image/gif"/></media>
+
+</para><note id="eip-835">This chapter is published by <link url="http://www.ncpeapublications.org/books.html">NCPEA Press</link> and is presented as an NCPEA/Connexions publication "print on demand book." Each chapter has been peer-reviewed, accepted, and endorsed by the National Council of Professors of Educational Administration (NCPEA) as a significant contribution to the scholarship and practice of education administration.
+
+</note><list id="eip-613" list-type="labeled-item"><title><emphasis effect="underline">About the Authors</emphasis></title><item><emphasis>John R. Slate</emphasis> is a Professor at Sam Houston State University where he teaches Basic and Advanced Statistics courses, as well as professional writing, to doctoral students in Educational Leadership and Counseling.  His research interests lie in the use of educational databases, both state and national, to reform school practices.  To date, he has chaired and/or served over 100 doctoral student dissertation committees.  Recently, Dr. Slate created a website (<link url="www.writingandstatisticalhelp">Writing and Statistical Help</link>) to assist students and faculty with both statistical assistance and in editing/writing their dissertations/theses and manuscripts.</item>
+	<item><emphasis>Ana Rojas-LeBouef </emphasis> is a Literacy Specialist at the Reading Center at Sam Houston State University where she teaches developmental reading courses.  Dr. LeBoeuf recently completed her doctoral degree in Reading, where she conducted a 16-year analysis of Texas statewide data regarding the achievement gap.  Her research interests lie in examining the inequities in achievement among ethnic groups.  Dr. Rojas-LeBouef also assists students and faculty in their writing and statistical needs on the Writing and Statistical Help website.
+</item>
+</list><para id="id1169383179487"><emphasis>From the data screen, click on</emphasis></para>
+    <para id="id1169378183884"><emphasis>√ Analyze</emphasis></para>
+    <para id="id1169375025380"><emphasis>√ Regression</emphasis></para>
+    <para id="id1169380382797"><emphasis>√ Linear</emphasis></para>
+    <para id="id1169382270427"><link url="18.1.png/image" window="new">
+		<media id="media1" alt="">
+			<image mime-type="image/png" src="../../media/18.1.png" id="figure1"/>
+		</media>
+	</link></para>
+    <para id="id1169377258544"><emphasis>Your screen should now look like the one below. We will send the dependent variable, the one we are trying to predict, to the Dependent box. Click on Wechsler Full Scale IQ 3 and send it to the Dependent box.</emphasis></para>
+    <para id="id1169377726028"><link url="18.2.png/image" window="new">
+		<media id="media2" alt="">
+			<image mime-type="image/png" src="../../media/18.2.png" id="figure2"/>
+		</media>
+	</link></para>
+    <para id="id1169380116748"><emphasis>Your screen should now look like the following one. Next we will place all of the independent variables in the Independent(s) box. I this example, remember that we are using Performance 1 through Verbal 5.</emphasis></para>
+    
+    <para id="id5971548"><link url="18.3.png/image" window="new">
+		<media id="media3" alt="">
+			<image mime-type="image/png" src="../../media/18.3.png" id="figure3"/>
+		</media>
+	</link></para>
+    <para id="id1169374823086"><emphasis>After you have placed all 10 of these variables in the Independent(s) box, your screen will look like the following one.</emphasis></para>
+    <para id="id1169377926333"><emphasis>Next we will click on Method and change it from the default of Enter to Stepwise.</emphasis></para>
+    <para id="id1169375334243"><link url="18.4.png/image" window="new">
+		<media id="media4" alt="">
+			<image mime-type="image/png" src="../../media/18.4.png" id="figure4"/>
+		</media>
+	</link></para>
+    <para id="id1169371981488"><emphasis>Click on Stepwise.</emphasis></para>
+    <para id="id1169372950940"><link url="18.5.png/image" window="new">
+		<media id="media5" alt="">
+			<image mime-type="image/png" src="../../media/18.5.png" id="figure5"/>
+		</media>
+	</link></para>
+    
+    <para id="eip-744"><emphasis>After clicking on Stepwise, your screen will look like the one below.</emphasis></para><para id="eip-46"><emphasis>Click on Statistics</emphasis></para>
+    <para id="eip-200"><link url="18.6.png/image" window="new">
+		<media id="media6" alt="">
+			<image mime-type="image/png" src="../../media/18.6.png" id="figure6"/>
+		</media>
+	</link></para>
+    <para id="eip-139"><emphasis>After clicking on Statistics, you will now</emphasis></para><para id="eip-218"><emphasis>√ Click on Estimates (default already checked)</emphasis></para>
+    
+    
+    <para id="eip-700"><emphasis>√ Model fit (default already checked)</emphasis></para><para id="eip-738"><emphasis>√ R squared change</emphasis></para><para id="eip-316"><emphasis>√ Descriptives</emphasis></para><para id="eip-734"><emphasis>√ Collinearity Diagnostics</emphasis></para><para id="eip-696"><emphasis>√ Durbin-Watson</emphasis></para>
+    
+    
+    
+    <para id="eip-420"><link url="18.7.png/image" window="new">
+		<media id="media7" alt="">
+			<image mime-type="image/png" src="../../media/18.7.png" id="figure7"/>
+		</media>
+	</link></para>
+    <para id="eip-536"><emphasis>Your screen should like the one below. Now click on Continue.</emphasis></para>
+    <para id="eip-555"><link url="18.8.png/image" window="new">
+		<media id="media8" alt="">
+			<image mime-type="image/png" src="../../media/18.8.png" id="figure8"/>
+		</media>
+	</link></para>
+    <para id="eip-559"><emphasis>Next click on</emphasis></para><para id="eip-339"><emphasis>√ OK</emphasis></para><para id="eip-414"><emphasis> Go to the Output file if SPSS does not auomatically send you there.</emphasis></para><para id="eip-285"><link url="18.89.png/image" window="new">
+		<media id="media9" alt="">
+			<image mime-type="image/png" src="../../media/18.9.png" id="figure9"/>
+		</media>
+	</link></para>
+    
+    
+    
+  </content>
+</document>

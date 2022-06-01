@@ -1,0 +1,103 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>20. Multiple Regression: Part II</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m40742</md:content-id>
+  <md:title>20. Multiple Regression: Part II</md:title>
+  <md:abstract/>
+  <md:uuid>ec5aa4b2-f76c-4794-bda1-80ec5d2bfeb1</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-134"><media id="id27091673" alt=""><image src="../../media/ncpealogo.gif" mime-type="image/gif"/></media>
+
+</para><note id="eip-4">This chapter is published by <link url="http://www.ncpeapublications.org/books.html">NCPEA Press</link> and is presented as an NCPEA/Connexions publication "print on demand book." Each chapter has been peer-reviewed, accepted, and endorsed by the National Council of Professors of Educational Administration (NCPEA) as a significant contribution to the scholarship and practice of education administration.
+
+</note><list id="eip-19" list-type="labeled-item"><title><emphasis effect="underline">About the Authors</emphasis></title><item><emphasis>John R. Slate</emphasis> is a Professor at Sam Houston State University where he teaches Basic and Advanced Statistics courses, as well as professional writing, to doctoral students in Educational Leadership and Counseling.  His research interests lie in the use of educational databases, both state and national, to reform school practices.  To date, he has chaired and/or served over 100 doctoral student dissertation committees.  Recently, Dr. Slate created a website (<link url="www.writingandstatisticalhelp">Writing and Statistical Help</link>) to assist students and faculty with both statistical assistance and in editing/writing their dissertations/theses and manuscripts.</item>
+	<item><emphasis>Ana Rojas-LeBouef </emphasis> is a Literacy Specialist at the Reading Center at Sam Houston State University where she teaches developmental reading courses.  Dr. LeBoeuf recently completed her doctoral degree in Reading, where she conducted a 16-year analysis of Texas statewide data regarding the achievement gap.  Her research interests lie in examining the inequities in achievement among ethnic groups.  Dr. Rojas-LeBouef also assists students and faculty in their writing and statistical needs on the Writing and Statistical Help website.
+</item>
+</list><para id="id5579636"><emphasis>The first table in your SPSS output file should be a Descriptive Statistics table. You will see a column for <emphasis effect="italics">M</emphasis>, <emphasis effect="italics">SD</emphasis>, and <emphasis effect="italics">n</emphasis>. This information should be used in your Results section. </emphasis></para>
+    <para id="id1166727384538"><link url="19.1.png/image" window="new">
+		<media id="media1" alt="">
+			<image mime-type="image/png" src="../../media/19.1.png" id="figure1"/>
+		</media>
+	</link></para>
+    <para id="id1166728739764"><emphasis>Underneath the Descriptive Statistics table is a table labeled Correlations. This table reflects the Pearson rs for each independent variable with the dependent variable, as well as the interrelationships among all of the variables.</emphasis></para>
+    <para id="id1166730400926"><emphasis>Of the relationships of the independent variable with the Wechsler Full Scale IQ 3 (the dependent variable in this example), Verbal 2 (Similarities) has the highest correlation, .768. In a stepwise regression procedure, this variable should be the first statistically significant predictor.</emphasis></para>
+    <para id="id1166729081494"><link url="19.2.png/image" window="new">
+		<media id="media2" alt="">
+			<image mime-type="image/png" src="../../media/19.2.png" id="figure2"/>
+		</media>
+	</link></para>
+    <para id="id1166728033901"><emphasis>Next, you will see the Variables Entered/Removed table. We will not use the information in this table. </emphasis></para>
+    <para id="id1166734221062"><link url="19.3.png/image" window="new">
+		<media id="media3" alt="">
+			<image mime-type="image/png" src="../../media/19.3.png" id="figure3"/>
+		</media>
+	</link></para>
+    <para id="id6706524"><emphasis>The table labeled Model Summary is an important table. This table is a summary of all of the steps entered/removed. Important columns in this table are:</emphasis></para>
+    <para id="id1166734067579"><emphasis>Adjusted R Square</emphasis></para>
+    <para id="id1166726745459"><emphasis>R Square Change</emphasis></para>
+    <para id="id1166724445377"><emphasis>Durbin-Watson</emphasis></para>
+    <para id="id1166735723545"><link url="19.4.png/image" window="new">
+		<media id="media4" alt="">
+			<image mime-type="image/png" src="../../media/19.4.png" id="figure4"/>
+		</media>
+	</link></para>
+    <para id="id1166738940807"><emphasis>The Durbin-Watson statistic is a measure for significant residual autocorrelation. Ideally it should be close to 2. In our example, the Durbin-Watson statistic is 1.912. Therefore, this assumption has not been violated.</emphasis></para>
+    <para id="id1166735202628"><link url="19.5.png/image" window="new">
+		<media id="media5" alt="">
+			<image mime-type="image/png" src="../../media/19.5.png" id="figure5"/>
+		</media>
+	</link></para>
+    <para id="id1166731372857"><emphasis>The Adjusted R Square column indicates the amount of variance that each model explains in the dependent variable (i.e., Wechsler Fll Scale IQ 3). The first model has the letter <emphasis effect="bold">a</emphasis> next to it. This model contains a single independent variable, Verbal 2 (Similarities). If you recall, this variable has the highest Pearson r with the Wechsler Full Scale IQ 3. In this example, Verbal 2 (Similarities) accounts for 58.9% of the variance in the Wechsler Full Scale IQ 3.</emphasis></para>
+    <para id="id1166728892824"><link url="19.6.png/image" window="new">
+		<media id="media6" alt="">
+			<image mime-type="image/png" src="../../media/19.6.png" id="figure6"/>
+		</media>
+	</link></para>
+    <para id="id1166726411740"><emphasis>Each model, from 1 to 10, depicts the addition of another statistically significant variable in predicting the Wechsler Full Scale IQ 3. The final model, 10, indicates that all 10 independent variables accounted for 99.6% of the variance in the Wechsler Full Scale IQ 3.</emphasis></para>
+    <para id="id1166740013954"><link url="19.7.png/image" window="new">
+		<media id="media7" alt="">
+			<image mime-type="image/png" src="../../media/19.7.png" id="figure7"/>
+		</media>
+	</link></para>
+    <para id="id1166727406992"><emphasis>Next, examine the R Square Change column. Each value reflects the unique variance in the Wechsler Full Scale IQ 3 explained by each statistically significant predictor variable. For Model 1, Verbal 2 (Similarities) explained the most variance, 58.9%. In Model 2, Performance 4 (Block Design) added 18.0% of unique variance that it explained. </emphasis></para>
+    <para id="id1166724646123"><link url="19.8.png/image" window="new">
+		<media id="media8" alt="">
+			<image mime-type="image/png" src="../../media/19.8.png" id="figure8"/>
+		</media>
+	</link></para>
+    <para id="id1166723988479"><emphasis>The final model, 10, only added 0.7% of additional variance explained.</emphasis></para>
+    <para id="id5705265"><link url="19.9.png/image" window="new">
+		<media id="media9" alt="">
+			<image mime-type="image/png" src="../../media/19.9.png" id="figure9"/>
+		</media>
+	</link></para>
+    <para id="id1166727390558"><emphasis>The next table of importance is the ANOVA table. Each model is examined to determine the extent to which it explains a statistically significant amount of the variance in the dependent variable. Of interest to us is the very last model, 10, which shows a statistically significant result, <emphasis effect="italics">F</emphasis>(10, 1122) = 31959.947, <emphasis effect="italics">p</emphasis> &lt; .001.</emphasis></para>
+    <para id="id1166735476095"><link url="19.10.png/image" window="new">
+		<media id="media10" alt="">
+			<image mime-type="image/png" src="../../media/19.10.png" id="figure10"/>
+		</media>
+	</link></para>
+    <para id="id1166735775173"><emphasis>Underneath the ANOVA table is the Coefficients table. The important columns in this table are the Standardized Coefficients Beta and the Collinearity Statistics Tolerance and VIF ones. We will scroll down this table until we get to the final model, 10, information.</emphasis></para>
+    <para id="id1166726399019"><link url="19.11.png/image" window="new">
+		<media id="media11" alt="">
+			<image mime-type="image/png" src="../../media/19.11.png" id="figure11"/>
+		</media>
+	</link></para>
+    <para id="id1166734246713"><emphasis>Scrolling down to the last model information shows us the following information. If you recall from the assumption checks, that multicollinearity was to be examined in the SPSS output. Multicollinearity is present when Tolerance values are below .1. As you can tell from the output below, Tolerance values range from a low of .386 to a high of .811. A second check for multicollinearity is the VIF column. Multicollinearity is present in the VIF column when the VIF values are greater than 10. In the example below, the VIF values range from a low of 1.233 to a high of 2.592. Therefore, multicollinearity is not present in this example.</emphasis></para>
+    <para id="id1166728900203"><link url="19.12.png/image" window="new">
+		<media id="media12" alt="">
+			<image mime-type="image/png" src="../../media/19.12.png" id="figure12"/>
+		</media>
+	</link></para>
+    <para id="id1166737149610"><emphasis>The Standardized Coefficients Beta column is to be examined next. Each of these values reflects the relative importance of each of these statistically significant predictors. In this column, you will see that the Betas range from a low of .130 to a high of .155, indicating that each has about the same degree of relative importance.</emphasis></para>
+    <para id="id6404233"><link url="19.13.png/image" window="new">
+		<media id="media13" alt="">
+			<image mime-type="image/png" src="../../media/19.13.png" id="figure13"/>
+		</media>
+	</link></para>
+    <para id="id1166731524038"><emphasis>In your Results section, you should discuss the assumptions that you checked; the extent to which each assumption was met or not met; the descriptive statistics; and the information in the columns that was discussed at each step of the regression process. </emphasis></para>
+    <para id="id1166729256098"><emphasis>You have now successfully gone through the calculation of a multiple regression analysis.</emphasis></para>
+  </content>
+</document>

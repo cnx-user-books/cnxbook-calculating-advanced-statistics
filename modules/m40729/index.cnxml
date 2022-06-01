@@ -1,0 +1,102 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>12.  Multivariate Analysis of Variance: Part II</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m40729</md:content-id>
+  <md:title>12.  Multivariate Analysis of Variance: Part II</md:title>
+  <md:abstract/>
+  <md:uuid>41adc5b3-795b-4ba5-bdf8-ffcc8de2a6bf</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-978"><media id="id27091673" alt=""><image src="../../media/ncpealogo.gif" mime-type="image/gif"/></media>
+
+</para><note id="eip-628">This chapter is published by <link url="http://www.ncpeapublications.org/books.html">NCPEA Press</link> and is presented as an NCPEA/Connexions publication "print on demand book." Each chapter has been peer-reviewed, accepted, and endorsed by the National Council of Professors of Educational Administration (NCPEA) as a significant contribution to the scholarship and practice of education administration.
+
+</note><list id="eip-625" list-type="labeled-item"><title><emphasis effect="underline"> About the Authors</emphasis></title><item><emphasis>John R. Slate</emphasis> is a Professor at Sam Houston State University where he teaches Basic and Advanced Statistics courses, as well as professional writing, to doctoral students in Educational Leadership and Counseling.  His research interests lie in the use of educational databases, both state and national, to reform school practices.  To date, he has chaired and/or served over 100 doctoral student dissertation committees.  Recently, Dr. Slate created a website (<link url="www.writingandstatisticalhelp">Writing and Statistical Help</link>) to assist students and faculty with both statistical assistance and in editing/writing their dissertations/theses and manuscripts.</item>
+	<item><emphasis>Ana Rojas-LeBouef </emphasis> is a Literacy Specialist at the Reading Center at Sam Houston State University where she teaches developmental reading courses.  Dr. LeBoeuf recently completed her doctoral degree in Reading, where she conducted a 16-year analysis of Texas statewide data regarding the achievement gap.  Her research interests lie in examining the inequities in achievement among ethnic groups.  Dr. Rojas-LeBouef also assists students and faculty in their writing and statistical needs on the Writing and Statistical Help website.
+</item>
+</list><para id="id1169398716011"><emphasis>We are now ready to conduct the MANOVA procedure. </emphasis></para>
+    <para id="id1169377952890"><emphasis>√ Analyze</emphasis></para>
+    <para id="id1169403344612"><emphasis>√ General Linear Model</emphasis></para>
+    <para id="id1169412362782"><emphasis>√ Multivariate</emphasis></para>
+    <para id="id1169383648344"><link url="11.1.png/image" window="new">
+		<media id="media1" alt="">
+			<image mime-type="image/png" src="../../media/11.1.png" id="figure1"/>
+		</media>
+	</link></para>
+    <para id="id1169415343083"><emphasis>After clicking on Multivariate, the following screen will appear. You will send your dependent variables to the Dependent Variables box and your independent variable to the Fixed Factor box. Remember that in this example, Verbal 1 through Verbal 4 (i.e., Information, Similarities, Arithmetic, and Vocabulary) constitute the dependent variables and Reading Group Membership is the independent variable.</emphasis></para>
+    <para id="id1169376356043"><link url="11.2.png/image" window="new">
+		<media id="media2" alt="">
+			<image mime-type="image/png" src="../../media/11.2.png" id="figure2"/>
+		</media>
+	</link></para>
+    <para id="id1169379423885"><emphasis>Now send the four dependent variables (i.e., Verbal 1 through Verbal 4) over one at a time to the Dependent Variables screen.</emphasis></para>
+    <para id="id1169380241654"><link url="113.png/image" window="new">
+		<media id="media3" alt="">
+			<image mime-type="image/png" src="../../media/11.3.png" id="figure3"/>
+		</media>
+	</link></para>
+    <para id="id1169395169304"><emphasis>Then send over the independent variable, Reading Group Membership, to the Fixed Factor box. Then click on Options.</emphasis></para>
+    <para id="id1169377657179"><link url="11.4.png/image" window="new">
+		<media id="media4" alt="">
+			<image mime-type="image/png" src="../../media/11.4.png" id="figure4"/>
+		</media>
+	</link></para>
+    <para id="id1169419293359"><emphasis>Clicking on options will then give you this screen.</emphasis></para>
+    <para id="id1169387080649"><emphasis>We will use this screen to obtain descriptive statistics of our four dependent variables for each of our three reading groups; to obtain effect size estimates; and to determine the extent to which the assumptions underlying use of the MANOVA procedure are met.</emphasis></para>
+    <para id="id1169388018838"><emphasis>Click on (Overall) and on group and send them to the Display Means for: box.</emphasis></para>
+    <para id="id1169395017088"><link url="11.5.png/image" window="new">
+		<media id="media5" alt="">
+			<image mime-type="image/png" src="../../media/11.5.png" id="figure5"/>
+		</media>
+	</link></para>
+    <para id="id1169380107518"><emphasis>To obtain the information just mentioned, you will need to click on:</emphasis></para>
+    <para id="id1169388032113"><emphasis>Descriptive Statistics</emphasis></para>
+    <para id="id1169378313662"><emphasis>Estimates of Effect Size</emphasis></para>
+    <para id="id1169381853815"><emphasis>Homogeneity tests</emphasis></para>
+    <para id="id1169405721848"><link url="11.6.png/image" window="new">
+		<media id="media6" alt="">
+			<image mime-type="image/png" src="../../media/11.6.png" id="figure6"/>
+		</media>
+	</link></para>
+    <para id="id1169388896946"><emphasis>After checking the three boxes mentioned, then click on Continue</emphasis></para>
+    <para id="id1169375766900"><link url="11.7.png/image" window="new">
+		<media id="media7" alt="">
+			<image mime-type="image/png" src="../../media/11.7.png" id="figure7"/>
+		</media>
+	</link></para>
+    <para id="id1169402449204"><emphasis>After clicking on Continue, the following screen will appear. Now click on Post Hoc so that pairwise analyses can be conducted. </emphasis></para>
+    
+    <para id="id1169395207689"><link url="11.8.png/image" window="new">
+		<media id="media8" alt="">
+			<image mime-type="image/png" src="../../media/11.8.png" id="figure8"/>
+		</media>
+	</link></para>
+    <para id="id1169381886460"><emphasis>Clicking on Post Hoc will then give you the screen below. Click on group and send it to the box labeled Post Hoc Tests for:</emphasis></para>
+    <para id="id1169401265491"><link url="11.9.png/image" window="new">
+		<media id="media9" alt="">
+			<image mime-type="image/png" src="../../media/11.9.png" id="figure9"/>
+		</media>
+	</link></para>
+    <para id="id1169378307761"><emphasis>Once you send the independent variable over to the box labeled Post Hoc Tests for:, the different types of post hoc procedures become activated. For our purposes, we will click on the Scheffe` post hoc procedure. If you are analyzing data for your dissertation or theses, you might check with your chair to see if s/he has a preference for a different type. Scheffe`is a conservative post hoc procedure, thus the reason that we recommend its use. Note that the way that Scheffe is spelled in SPSS is not written correctly in compliance with APA. The way that we have typed it is correct. </emphasis></para>
+    
+    <para id="id1169378555861"><link url="11.10.png/image" window="new">
+		<media id="media10" alt="">
+			<image mime-type="image/png" src="../../media/11.10.png" id="figure10"/>
+		</media>
+	</link></para>
+    <para id="id1169381197211"><emphasis>After clicking on the Scheffe` post hoc procedure, then click on Continue. </emphasis></para>
+    <para id="id1169397582522"><link url="11.11.png/image" window="new">
+		<media id="media11" alt="">
+			<image mime-type="image/png" src="../../media/11.11.png" id="figure11"/>
+		</media>
+	</link></para>
+    <para id="id1169381200491"><emphasis>Then click on OK.</emphasis></para>
+    <para id="id1169380048937"><link url="11.12.png/image" window="new">
+		<media id="media12" alt="">
+			<image mime-type="image/png" src="../../media/11.12.png" id="figure12"/>
+		</media>
+	</link></para>
+    <para id="id1169388564808"><emphasis>Your MANOVA has now been calculated. If you are not sent to the SPSS Output file, click on Output at the bottom of your screen so that you may view your MANOVA results.</emphasis></para>
+  </content>
+</document>

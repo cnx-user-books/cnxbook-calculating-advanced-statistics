@@ -1,0 +1,205 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>11.  Multivariate Analysis of Variance: Part I</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m40728</md:content-id>
+  <md:title>11.  Multivariate Analysis of Variance: Part I</md:title>
+  <md:abstract/>
+  <md:uuid>d7033c9d-4843-49d2-9138-4e3f7b0cb99d</md:uuid>
+</metadata>
+
+<content>
+    
+    <para id="eip-922"><media id="id27091673" alt=""><image src="../../media/ncpealogo.gif" mime-type="image/gif"/></media>
+
+</para><note id="eip-658">This chapter is published by <link url="http://www.ncpeapublications.org/books.html">NCPEA Press</link> and is presented as an NCPEA/Connexions publication "print on demand book." Each chapter has been peer-reviewed, accepted, and endorsed by the National Council of Professors of Educational Administration (NCPEA) as a significant contribution to the scholarship and practice of education administration.
+
+</note><list id="eip-510" list-type="labeled-item"><title><emphasis effect="underline">About the Authors</emphasis></title><item><emphasis>John R. Slate</emphasis> is a Professor at Sam Houston State University where he teaches Basic and Advanced Statistics courses, as well as professional writing, to doctoral students in Educational Leadership and Counseling.  His research interests lie in the use of educational databases, both state and national, to reform school practices.  To date, he has chaired and/or served over 100 doctoral student dissertation committees.  Recently, Dr. Slate created a website (<link url="www.writingandstatisticalhelp">Writing and Statistical Help</link>) to assist students and faculty with both statistical assistance and in editing/writing their dissertations/theses and manuscripts.</item>
+	<item><emphasis>Ana Rojas-LeBouef </emphasis> is a Literacy Specialist at the Reading Center at Sam Houston State University where she teaches developmental reading courses.  Dr. LeBoeuf recently completed her doctoral degree in Reading, where she conducted a 16-year analysis of Texas statewide data regarding the achievement gap.  Her research interests lie in examining the inequities in achievement among ethnic groups.  Dr. Rojas-LeBouef also assists students and faculty in their writing and statistical needs on the Writing and Statistical Help website.
+</item>
+
+</list><para id="id1171766063460"><emphasis>In this set of steps, readers will calculate a multivariate analysis of variance procedure, following the determination of the extent to which data for the dependent variables reflect normal distributions. Although a parametric statistical procedure requires that its data be reflective of a normal curve, the multivariate analysis of variance procedure is regarded as being sufficiently robust that it can withstand most violations. For detailed information regarding the assumptions underlying the multivariate analysis of variance (MANOVA) procedure, readers are referred to the Hyperstats Online Statistics Textbook at <link url="http://davidmlane.com/hyperstat/">http://davidmlane.com/hyperstat/</link> ; to the <emphasis effect="italics">Electronic Statistics Textbook</emphasis> (2011) at <link url="http://www.statsoft.com/textbook/">http://www.statsoft.com/textbook/</link> ; or to Andy Field’s (2009) Discovering Statistics Using SPSS at <link url="http://www.amazon.com/Discovering-Statistics-Introducing-Statistical-Method/dp/1847879071/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1304967862&amp;sr=1-1">http://www.amazon.com/Discovering-Statistics-Introducing-Statistical-Method/dp/1847879071/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1304967862&amp;sr=1-1</link> </emphasis></para>
+    <para id="id1171759320121"><emphasis>Research questions for which a MANOVA procedure is appropriate involve asking for differences in multiple dependent variables by group membership (i.e., more than two groups may be present). In addition to multiple dependent variables being present, multiple independent variables can be present as well. That is, differences in several achievement variables could be analyzed by student gender, student ethnicity, student socioeconomic status, and the like. A specific research question that could be addressed is, “What is the difference in academic achievement among elementary school students as a function of ethnic membership, gender, and grade level?” Academic achievement in this example could be reading, math, science, and social studies scores. The independent variables are ethnicity, gender, and grade level. </emphasis></para>
+    <para id="id1171758077285"><emphasis>For this particular chapter, the research question on which we will conduct a MANOVA will be: What is the difference in verbal aptitude among elementary reading groups? Verbal aptitude consists of Verbal 1 (inf), Verbal 2 (sim), Verbal 3 (ari), and Verbal 4 (voc).</emphasis></para>
+    <para id="id1171759319599"><link url="10.1.png/image" window="new">
+		<media id="media1" alt="">
+			<image mime-type="image/png" src="../../media/10.1.png" id="figure1"/>
+		</media>
+	</link></para>
+    <para id="id5633130"><emphasis>In this example, our independent or grouping variable is elementary reading group.</emphasis></para>
+    <para id="id1171758816530"><link url="10.2.png/image" window="new">
+		<media id="media2" alt="">
+			<image mime-type="image/png" src="../../media/10.2.png" id="figure2"/>
+		</media>
+	</link></para>
+    <para id="id1171761389056"><emphasis>By clicking on variable view, you can see how many groups of students are present in the reading group variable; the names of the groups; and the numbers which have been assigned to each group.</emphasis></para>
+    <para id="id1171758759894"><link url="10.3.png/image" window="new">
+		<media id="media3" alt="">
+			<image mime-type="image/png" src="../../media/10.3.png" id="figure3"/>
+		</media>
+	</link></para>
+    <para id="id1171764316820"><emphasis>After clicking on Variable View, the following screen will appear: Arrows have been placed toward the name of the independent or grouping variable; toward the label assigned to this variable; and then toward the values of each group.</emphasis></para>
+    <para id="id1171768242710"><link url="10.4.png/image" window="new">
+		<media id="media4" alt="">
+			<image mime-type="image/png" src="../../media/10.4.png" id="figure4"/>
+		</media>
+	</link></para>
+    <para id="id1171772084433"><emphasis>Now click on the cell for Reading Group Membership. Three dots will appear, indicating that another screen is beneath this one.</emphasis></para>
+    <para id="id1171768199577"><link url="10.5.png/image" window="new">
+		<media id="media5" alt="">
+			<image mime-type="image/png" src="../../media/10.5.png" id="figure5"/>
+		</media>
+	</link></para>
+    <para id="id1171768759143"><emphasis>Click on the three dots shown in the screen above and the value and name of each of the reading groups will be shown. Our three groups are Excellent Reader (1), Good Reader (2), and Extremely Poor Reader (3).</emphasis></para>
+    <para id="id1171765487089"><link url="10.6.png/image" window="new">
+		<media id="media6" alt="">
+			<image mime-type="image/png" src="../../media/10.6.png" id="figure6"/>
+		</media>
+	</link></para>
+    <para id="id1171769815822"><emphasis>Now that you know what your independent (grouping) variable is and your dependent variables are, it is time to determine the extent to which the dependent variable data are normally distributed. Cancel out of the screen above. Then click on data view.</emphasis></para>
+    <para id="id1171758851947"><link url="10.7.png/image" window="new">
+		<media id="media7" alt="">
+			<image mime-type="image/png" src="../../media/10.7.png" id="figure7"/>
+		</media>
+	</link></para>
+    <para id="id1171766609380"><emphasis>Your screen should now look like the one below.</emphasis></para>
+    <para id="id1171765979396"><link url="10.8.png/image" window="new">
+		<media id="media8" alt="">
+			<image mime-type="image/png" src="../../media/10.8.png" id="figure8"/>
+		</media>
+	</link></para>
+    <para id="id1171758641912"><emphasis>Check for Skewness and Kurtosis values falling within/without the parameters of normality (-3 to +3). To do so, you need to obtain these values for each of your three groups for each of your four dependent variables. </emphasis></para>
+    
+    
+    <para id="id1171774276667"><emphasis>√ Split your file on the basis on your independent variable/fixed factor/grouping variable. To do so, click on the icon next to the scales. Holding your cursor on it will reveal Split File, as shown below. </emphasis></para>
+    <para id="id1171767160374"><link url="10.9.png/image" window="new">
+		<media id="media9" alt="">
+			<image mime-type="image/png" src="../../media/10.9.png" id="figure9"/>
+		</media>
+	</link></para>
+    <para id="id1171769155167"><emphasis>After clicking on the split file icon, the following screen will appear: You will note that the Analyze all cases, do not create groups is checked. This value is the default for SPSS as all cases are analyzed, unless otherwise specified. To obtain measures of normality for each of the three reading groups, the Compare groups button will need to be clicked.</emphasis></para>
+    <para id="id1171769785775"><link url="10.10.png/image" window="new">
+		<media id="media10" alt="">
+			<image mime-type="image/png" src="../../media/10.10.png" id="figure10"/>
+		</media>
+	</link></para>
+    <para id="id1171757850295"><emphasis>The screen below will appear after the Compare groups button has been clicked. Note that the Groups Based on rectangle has now become active. The independent (grouping) variable should be highlighted, as it already is, and then moved to the Groups Based on cell. After highlighting the Reading Group Membership variable, then click on the arrow below.</emphasis></para>
+    <para id="id1171760413832"><link url="10.11.png/image" window="new">
+		<media id="media11" alt="">
+			<image mime-type="image/png" src="../../media/10.11.png" id="figure11"/>
+		</media>
+	</link></para>
+    <para id="id1171763527297"><emphasis>After clicking on the arrow, your independent variable of Reading Group Membership is now in the Groups Based on cell. Now click on OK. </emphasis></para>
+    <para id="id1171766668147"><link url="10.12.png/image" window="new">
+		<media id="media12" alt="">
+			<image mime-type="image/png" src="../../media/10.12.png" id="figure12"/>
+		</media>
+	</link></para>
+    <para id="id1171767112127"><emphasis>Now all SPSS analyses will be calculated separately for each of the three reading groups.</emphasis></para>
+    <para id="id1171771843453"><link url="10.13.png/image" window="new">
+		<media id="media13" alt="">
+			<image mime-type="image/png" src="../../media/10.13.png" id="figure13"/>
+		</media>
+	</link></para>
+    
+    <para id="id1171757971146"><emphasis>√ Analyze</emphasis></para>
+    <para id="id1171756513591"><emphasis>* Descriptive Statistics</emphasis></para>
+    <para id="id7139492"><emphasis>* Frequencies</emphasis></para>
+    <para id="id1171769703570"><link url="10.14.png/image" window="new">
+		<media id="media14" alt="">
+			<image mime-type="image/png" src="../../media/10.14.png" id="figure14"/>
+		</media>
+	</link></para>
+    <para id="id1171768289228"><emphasis>After clicking on frequencies, the following screen should now be present. Remember that the dependent variables in this example are Verbal 1 through Verbal 4 (i.e., inf, ari, voc)</emphasis></para>
+    <para id="id1171766868620"><link url="10.15.png/image" window="new">
+		<media id="media15" alt="">
+			<image mime-type="image/png" src="../../media/10.15.png" id="figure15"/>
+		</media>
+	</link></para>
+    <para id="id1171760489386"><emphasis>√ Move over the dependent variables. In this example, highlight each of the dependent variables one at a time and click on the right arrow.</emphasis></para>
+    <para id="id1171758676190"><link url="10.16.png/image" window="new">
+		<media id="media16" alt="">
+			<image mime-type="image/png" src="../../media/10.16.png" id="figure16"/>
+		</media>
+	</link></para>
+    <para id="id1171758323341"><emphasis>When all four dependent variables are in the Variable cell, then click on Statistics. </emphasis></para>
+    
+    <para id="id1171766114446"><link url="10.17.png/image" window="new">
+		<media id="media17" alt="">
+			<image mime-type="image/png" src="../../media/10.17.png" id="figure17"/>
+		</media>
+	</link></para>
+    <para id="id1171764772333"><emphasis>After clicking on statistics, the screen below will appear. Note that no statistics items are checked. For purposes of this example, only the skewness and kurtosis items will be checked. Although readers may obtain descriptive statistics at this screen, the MANOVA procedure itself can be used to obtain that information.</emphasis></para>
+    <para id="id1171769815059"><link url="10.18.png/image" window="new">
+		<media id="media18" alt="">
+			<image mime-type="image/png" src="../../media/10.18.png" id="figure18"/>
+		</media>
+	</link></para>
+    <para id="id1171767699094"><emphasis>Though previously discussed in the steps and screenshots chapters for the basic statistical procedures, readers may find the following information helpful in understanding skewness and kurtosis and their importance for conducting statistical procedures.</emphasis></para>
+    <para id="id1171767109924"><emphasis>* Skewness [Note. Skewness refers to the extent to which the data are normally distributed around the mean. Skewed data involve having either mostly high scores with a few low ones or having mostly low scores with a few high ones.] Readers are referred to the following sources for a more detailed definition of skewness: <link url="http://www.statistics.com/index.php?page=glossary&amp;term_id=356">http://www.statistics.com/index.php?page=glossary&amp;term_id=356</link> and <link url="http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb">http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb</link></emphasis></para>
+    <para id="id1171769145886"><emphasis>To standardize the skewness value so that its value can be constant across datasets and across studies, the following calculation must be made: Take the skewness value from the SPSS output and divide it by the Std. error of skewness. If the resulting calculation is within -3 to +3, then the skewness of the dataset is within the range of normality (Onwuegbuzie &amp; Daniel, 2002). If the resulting calculation is outside of this +/-3 range, the dataset is not normally distributed.</emphasis></para>
+    <para id="id1171758978293"><emphasis>* Kurtosis [Note. Kurtosis also refers to the extent to which the data are normally distributed around the mean. This time, the data are piled up higher than normal around the mean or piled up higher than normal at the ends of the distribution.] Readers are referred to the following sources for a more detailed definition of kurtosis: <link url="http://www.statistics.com/index.php?page=glossary&amp;term_id=326">http://www.statistics.com/index.php?page=glossary&amp;term_id=326</link> and <link url="http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb">http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb</link></emphasis></para>
+    <para id="id1171766873376"><emphasis>To standardize the kurtosis value so that its value can be constant across datasets and across studies, the following calculation must be made: Take the kurtosis value from the SPSS output and divide it by the Std. error of kurtosis. If the resulting calculation is within -3 to +3, then the kurtosis of the dataset is within the range of normality (Onwuegbuzie &amp; Daniel, 2002). If the resulting calculation is outside of this +/-3 range, the dataset is not normally distributed. Then the kurtosis of the dataset is within the range of normality (Onwuegbuzie &amp; Daniel, 2002). If the resulting calculation is outside of this +/-3 range, the dataset is not normally distributed. </emphasis></para>
+    
+    <para id="id1171757639600"><emphasis>Click on Skewness, Kurtosis, and Continue</emphasis></para>
+    <para id="id1171758996300"><link url="10.19.png/image" window="new">
+		<media id="media19" alt="">
+			<image mime-type="image/png" src="../../media/10.19.png" id="figure19"/>
+		</media>
+	</link></para>
+    <para id="id1171757746788"><emphasis>Now click on OK.</emphasis></para>
+    <para id="id1171766175741"><link url="10.20.png/image" window="new">
+		<media id="media20" alt="">
+			<image mime-type="image/png" src="../../media/10.20.png" id="figure20"/>
+		</media>
+	</link></para>
+    <para id="id1171757948166"><emphasis>If SPSS does not send you to the Output screen, click on the Output button at the bottom of your screen so that you can view the results of the statistics you just had SPSS calculate for you.</emphasis></para>
+    <para id="id1171758158861"><link url="10.21.png/image" window="new">
+		<media id="media21" alt="">
+			<image mime-type="image/png" src="../../media/10.21.png" id="figure21"/>
+		</media>
+	</link></para>
+    <para id="id1171765151847"><emphasis>Clicking on the Output icon will result in the screen below being present. You will note that the Statistics table below contains statistics for the Excellent Reader group; for the Good Reader group; and for the Extremely Poor Reader group.</emphasis></para>
+    <para id="id1171757613703"><link url="10.22.png/image" window="new">
+		<media id="media22" alt="">
+			<image mime-type="image/png" src="../../media/10.22.png" id="figure22"/>
+		</media>
+	</link></para>
+    <para id="id1171766923800"><emphasis>In the columns to the right of the three reading groups are the skewness and kurtosis values for the four dependent variables.</emphasis></para>
+    <para id="id1171768147868"><link url="10.23.png/image" window="new">
+		<media id="media23" alt="">
+			<image mime-type="image/png" src="../../media/10.23.png" id="figure23"/>
+		</media>
+	</link></para>
+    <para id="id1171764747104"><emphasis>Using the skewness and kurtosis value for each dependent variable above for each of the three groups above, type them in one at a time into the standardized coefficients calculator. To be regarded as being normally distributed, the coefficient should be within -3 to +3 (Onwuegbuzie &amp; Daniel, 2002).</emphasis></para>
+    <para id="id1171759348905"><link url="10.24.png/image" window="new">
+		<media id="media24" alt="">
+			<image mime-type="image/png" src="../../media/10.24.png" id="figure24"/>
+		</media>
+	</link></para>
+    <para id="id1171759252205"><emphasis>After calculating the standardized coefficients, record the number that are within +/-3 and the number that are outside of these boundaries. This information needs to be discussed in your results section where you document your checks of the assumptions underlying this particular statistical technique.</emphasis></para>
+    <para id="id1171759907993"><emphasis>Now, before conducting the MANOVA to answer our research question, this dataset must be put back together. Remember that the dataset is currently split. As you were in the SPSS Output screen, make sure that you go back to the Data screen before continuing.</emphasis></para>
+    <para id="id1171760235223"><emphasis>To unsplit the file,</emphasis></para>
+    <para id="id1171756400967"><emphasis>√ Split Files (the icon next to the scales)</emphasis></para>
+    <para id="id1171759933930"><link url="10.25.png/image" window="new">
+		<media id="media25" alt="">
+			<image mime-type="image/png" src="../../media/10.25.png" id="figure25"/>
+		</media>
+	</link></para>
+    
+    <para id="id1171767693343"><emphasis>Clicking on split files will reveal this screen. Although two ways exist in which to have SPSS analyze all cases, the easiest is simply to click on:</emphasis></para>
+    <para id="id1171759268872"><emphasis>√ Analyze all cases, do not create groups</emphasis></para>
+    
+    <para id="id1171759969579"><emphasis>Then, √ OK</emphasis></para>
+    <para id="id1171759236835"><link url="10.26.png/image" window="new">
+		<media id="media26" alt="">
+			<image mime-type="image/png" src="../../media/10.26.png" id="figure26"/>
+		</media>
+	</link></para>
+    <para id="id1171760697769"><emphasis>After clicking on OK, your screen should now look like the one below.</emphasis></para>
+    <para id="id1171759919064"><link url="10.27.png/image" window="new">
+		<media id="media27" alt="">
+			<image mime-type="image/png" src="../../media/10.27.png" id="figure27"/>
+		</media>
+	</link></para>
+  </content>
+</document>

@@ -1,0 +1,71 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>14. Discriminant Analysis: Assumptions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m40733</md:content-id>
+  <md:title>14. Discriminant Analysis: Assumptions</md:title>
+  <md:abstract/>
+  <md:uuid>52e34675-4ad8-42dc-ad85-8db16e745821</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-157"><media id="id27091673" alt=""><image src="../../media/ncpealogo.gif" mime-type="image/gif"/></media>
+
+</para><note id="eip-90">This chapter is published by <link url="http://www.ncpeapublications.org/books.html">NCPEA Press</link> and is presented as an NCPEA/Connexions publication "print on demand book." Each chapter has been peer-reviewed, accepted, and endorsed by the National Council of Professors of Educational Administration (NCPEA) as a significant contribution to the scholarship and practice of education administration.
+
+</note><list id="eip-163" list-type="labeled-item"><title><emphasis effect="underline">About the Authors</emphasis></title><item><emphasis>John R. Slate</emphasis> is a Professor at Sam Houston State University where he teaches Basic and Advanced Statistics courses, as well as professional writing, to doctoral students in Educational Leadership and Counseling.  His research interests lie in the use of educational databases, both state and national, to reform school practices.  To date, he has chaired and/or served over 100 doctoral student dissertation committees.  Recently, Dr. Slate created a website (<link url="www.writingandstatisticalhelp">Writing and Statistical Help</link>) to assist students and faculty with both statistical assistance and in editing/writing their dissertations/theses and manuscripts.</item>
+	<item><emphasis>Ana Rojas-LeBouef </emphasis> is a Literacy Specialist at the Reading Center at Sam Houston State University where she teaches developmental reading courses.  Dr. LeBoeuf recently completed her doctoral degree in Reading, where she conducted a 16-year analysis of Texas statewide data regarding the achievement gap.  Her research interests lie in examining the inequities in achievement among ethnic groups.  Dr. Rojas-LeBouef also assists students and faculty in their writing and statistical needs on the Writing and Statistical Help website.
+</item>
+</list><para id="id1164289831252"><emphasis>In this set of steps, readers will learn how to conduct a canonical discriminant analysis procedure. For detailed information regarding the assumptions underlying use of a discriminant analysis, readers are referred to the Hyperstats Online Statistics Textbook at <link url="http://davidmlane.com/hyperstat/">http://davidmlane.com/hyperstat/</link> ; to the <emphasis effect="italics">Electronic Statistics Textbook</emphasis> (2011) at <link url="http://www.statsoft.com/textbook/">http://www.statsoft.com/textbook/</link> ; or to Andy Field’s (2009) Discovering Statistics Using SPSS at <link url="http://www.amazon.com/Discovering-Statistics-Introducing-Statistical-Method/dp/1847879071/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1304967862&amp;sr=1-1">http://www.amazon.com/Discovering-Statistics-Introducing-Statistical-Method/dp/1847879071/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1304967862&amp;sr=1-1</link> </emphasis></para>
+    <para id="id1164268575971"><emphasis>Research questions for which a discriminant analysis procedure is appropriate involve determining variables that predict group membership. For example, if two groups of persons are present such as completers and non-completers and archival data are available, then a discriminant analysis procedure could be utilized. Such a procedure could identify specific variables that differentiate group membership. As such, interventions could be developed and targeted toward the variables that predicted group membership. Other sample research questions for which a discriminant analysis might be appropriate: (a) What factors differentiates successful from unsuccessful students?; (b) What factors differentiate delinquents from nondelinquents?; (c) What set of test scores best differentiates students with LD, students who are failing, and students with MR?; and (d) What set of factors differentiates drop-outs from persisters?</emphasis></para>
+    <para id="id1164289726383"><emphasis>For purposes of this chapter, our research question is: “What scholastic variables differentiate boys from girls?”</emphasis></para>
+    <para id="id1164293291202"><emphasis>First, open up the dataset you intend to analyze for your canonical discriminant analysis.</emphasis></para>
+    <para id="id1164286599331"><link url="13.1.png/image" window="new">
+		<media id="media1" alt="">
+			<image mime-type="image/png" src="../../media/13.1.png" id="figure1"/>
+		</media>
+	</link></para>
+    <para id="id1164286260892"><emphasis>Our independent variable is gender. Boys are labeled as group 1 and girls are labeled as group 2.</emphasis></para>
+    <para id="id1164287787273"><link url="13.2.png/image" window="new">
+		<media id="media2" alt="">
+			<image mime-type="image/png" src="../../media/13.2.png" id="figure2"/>
+		</media>
+	</link></para>
+    <para id="id1164291632293"><emphasis>Our dependent variables, the ones we will use to differentiate boys from girls are 10 subscales from the Wechsler Intelligence Scale for Children-Third Edition: Picture Completion (pc), Information (inf), Coding (cod), Similarities (sim), Picture Arrangement (pa), Arithmetic (ari), Block Design (bd), Vocabulary (voc), Object Assembly (oa), and Comprehension (comp). </emphasis></para>
+    <para id="id1164268508030"><link url="13.3.png/image" window="new">
+		<media id="media3" alt="">
+			<image mime-type="image/png" src="../../media/13.3.png" id="figure3"/>
+		</media>
+	</link></para>
+    <para id="id1164268852054"><emphasis>In the previous screenshots, we were in the variable view screen. Click on data view, shown below, so that your screen looks like the one below.</emphasis></para>
+    <para id="id1164292955122"><link url="13.4.png/image" window="new">
+		<media id="media4" alt="">
+			<image mime-type="image/png" src="../../media/13.4.png" id="figure4"/>
+		</media>
+	</link></para>
+    <para id="id1164268464721"><emphasis>Prior to conducting a canonical discriminant function, we need to check the assumptions that underlie its use.</emphasis></para>
+    <section id="eip-479"><title>Normal Distribution</title><para id="eip-340"><emphasis>It is assumed that the data (for the variables) represent a sample from a multivariate normal distribution. You can examine whether or not variables are normally distributed with histograms of frequency distributions. However, note that violations of the normality assumption are usually not "fatal," meaning, that the resultant significance tests etc. are still "trustworthy." You may use specific tests for normality in addition to graphs. <link url="http://www.statsoft.com/textbook/discriminant-function-analysis/#assumptions">http://www.statsoft.com/textbook/discriminant-function-analysis/#assumptions</link></emphasis>
+</para></section>
+    
+    <para id="id1164268515748"><emphasis>We recommend that you calculate the standardized skewness coefficients and the standardized kurtosis coefficients, as discussed in other chapters.</emphasis></para>
+    <para id="id1164291714616"><emphasis>* Skewness [Note. Skewness refers to the extent to which the data are normally distributed around the mean. Skewed data involve having either mostly high scores with a few low ones or having mostly low scores with a few high ones.] Readers are referred to the following sources for a more detailed definition of skewness: <link url="http://www.statistics.com/index.php?page=glossary&amp;term_id=356">http://www.statistics.com/index.php?page=glossary&amp;term_id=356</link> and <link url="http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb">http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb</link></emphasis></para>
+    <para id="id1164287640375"><emphasis>To standardize the skewness value so that its value can be constant across datasets and across studies, the following calculation must be made: Take the skewness value from the SPSS output and divide it by the Std. error of skewness. If the resulting calculation is within -3 to +3, then the skewness of the dataset is within the range of normality (Onwuegbuzie &amp; Daniel, 2002). If the resulting calculation is outside of this +/-3 range, the dataset is not normally distributed.</emphasis></para>
+    <para id="id1164269778322"><emphasis>* Kurtosis [Note. Kurtosis also refers to the extent to which the data are normally distributed around the mean. This time, the data are piled up higher than normal around the mean or piled up higher than normal at the ends of the distribution.] Readers are referred to the following sources for a more detailed definition of kurtosis: <link url="http://www.statistics.com/index.php?page=glossary&amp;term_id=326">http://www.statistics.com/index.php?page=glossary&amp;term_id=326</link> and <link url="http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb">http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb</link></emphasis></para>
+    <para id="id1164268581364"><emphasis>To standardize the kurtosis value so that its value can be constant across datasets and across studies, the following calculation must be made: Take the kurtosis value from the SPSS output and divide it by the Std. error of kurtosis. If the resulting calculation is within -3 to +3, then the kurtosis of the dataset is within the range of normality (Onwuegbuzie &amp; Daniel, 2002). If the resulting calculation is outside of this +/-3 range, the dataset is not normally distributed.</emphasis></para>
+    
+    <section id="eip-40"><title>Homogeneity of Variances/Covariances</title><para id="eip-306"><emphasis>It is assumed that the variance/covariance matrices of variables are homogeneous across groups. Again, minor deviations are not that important. <link url="http://www.statsoft.com/textbook/discriminant-function-analysis/#assumptions">http://www.statsoft.com/textbook/discriminant-function-analysis/#assumptions</link>
+</emphasis></para></section>
+    
+    <section id="eip-382"><title>Correlations between Means and Variances</title><para id="eip-904"><emphasis>The major "real" threat to the validity of significance tests occurs when the means for variables across groups are correlated with the variances (or standard deviations). Intuitively, if there is large variability in a group with particularly high means on some variables, then those high means are not reliable. However, the overall significance tests are based on pooled variances, that is, the average variance across all groups. Thus, the significance tests of the relatively larger means (with the large variances) would be based on the relatively smaller pooled variances, resulting erroneously in statistical significance. In practice, this pattern may occur if one group in the study contains a few extreme outliers, who have a large impact on the means, and also increase the variability. To guard against this problem, inspect the descriptive statistics, that is, the means and standard deviations or variances for such a correlation. <link url="http://www.statsoft.com/textbook/discriminant-function-analysis/#assumptions">http://www.statsoft.com/textbook/discriminant-function-analysis/#assumptions</link>
+</emphasis></para></section>
+    
+    <para id="id1164297410541"><emphasis>After calculating the means and standard deviations for your variables for each of your groups, check them to determine if large variability is present in the means for one of your groups compared to the means for the other group. </emphasis></para>
+    
+    <section id="eip-856"><title>The Matrix Ill-Conditioning Problem</title><para id="eip-640"><emphasis>Another assumption of discriminant function analysis is that the variables that are used to discriminate between groups are not completely redundant. As part of the computations involved in discriminant analysis, you will invert the variance/covariance matrix of the variables in the model. If any one of the variables is completely redundant with the other variables then the matrix is said to be <emphasis effect="italics">ill-conditioned</emphasis>, and it cannot be inverted. For example, if a variable is the sum of three other variables that are also in the model, then the matrix is ill-conditioned. <link url="http://www.statsoft.com/textbook/discriminant-function-analysis/#assumptions">http://www.statsoft.com/textbook/discriminant-function-analysis/#assumptions</link>
+</emphasis></para></section>
+    <para id="id1164286597480"><emphasis>What this assumption means is that each variable should be unique from any other variable in the analysis. Having one variable that includes another variable would be a violation of this assumption. An example of this would be using a total score that contains several subscale scores, all of which are used in the discriminant analysis.</emphasis></para>
+    
+    <section id="eip-643"><title>Tolerance Values.</title><para id="eip-730"><emphasis>In order to guard against matrix ill-conditioning, constantly check the so-called tolerance value for each variable. This tolerance value is computed as <emphasis effect="italics">1 minus R-square</emphasis> of the respective variable with all other variables included in the current model. Thus, it is the proportion of variance that is unique to the respective variable. In general, when a variable is almost completely redundant (and, therefore, the matrix ill-conditioning problem is likely to occur), the tolerance value for that variable will approach 0. <link url="http://www.statsoft.com/textbook/discriminant-function-analysis/#assumptions">http://www.statsoft.com/textbook/discriminant-function-analysis/#assumptions</link>
+</emphasis></para></section>
+    <para id="id1164296745600"><emphasis>We will check this assumption, the tolerance values, when we examine the SPSS output. </emphasis></para>
+  </content>
+</document>

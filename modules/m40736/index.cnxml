@@ -1,0 +1,86 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>16. Discriminant Analysis: Part II</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m40736</md:content-id>
+  <md:title>16. Discriminant Analysis: Part II</md:title>
+  <md:abstract/>
+  <md:uuid>2f3f9d7f-3aa9-4e31-8596-d8b781b8a4e3</md:uuid>
+</metadata>
+
+<content>
+    <para id="eip-734"><media id="id27091673" alt=""><image src="../../media/ncpealogo.gif" mime-type="image/gif"/></media>
+
+</para><note id="eip-167">This chapter is published by <link url="http://www.ncpeapublications.org/books.html">NCPEA Press</link> and is presented as an NCPEA/Connexions publication "print on demand book." Each chapter has been peer-reviewed, accepted, and endorsed by the National Council of Professors of Educational Administration (NCPEA) as a significant contribution to the scholarship and practice of education administration.
+
+</note><list id="eip-203" list-type="labeled-item"><title><emphasis effect="underline">About the Authors</emphasis></title><item><emphasis>John R. Slate</emphasis> is a Professor at Sam Houston State University where he teaches Basic and Advanced Statistics courses, as well as professional writing, to doctoral students in Educational Leadership and Counseling.  His research interests lie in the use of educational databases, both state and national, to reform school practices.  To date, he has chaired and/or served over 100 doctoral student dissertation committees.  Recently, Dr. Slate created a website (<link url="www.writingandstatisticalhelp">Writing and Statistical Help</link>) to assist students and faculty with both statistical assistance and in editing/writing their dissertations/theses and manuscripts.</item>
+	<item><emphasis>Ana Rojas-LeBouef </emphasis> is a Literacy Specialist at the Reading Center at Sam Houston State University where she teaches developmental reading courses.  Dr. LeBoeuf recently completed her doctoral degree in Reading, where she conducted a 16-year analysis of Texas statewide data regarding the achievement gap.  Her research interests lie in examining the inequities in achievement among ethnic groups.  Dr. Rojas-LeBouef also assists students and faculty in their writing and statistical needs on the Writing and Statistical Help website.
+</item>
+</list><para id="id1164268759283"><emphasis>Your screen should now look like the one below: Now click on Statistics. </emphasis></para>
+    <para id="id1164268464756"><link url="15.1.png/image" window="new">
+		<media id="media1" alt="">
+			<image mime-type="image/png" src="../../media/15.1.png" id="figure1"/>
+		</media>
+	</link></para>
+    <para id="id1164269136781"><emphasis>The following screen then appears.</emphasis></para>
+    <para id="id1164286468656"><emphasis>Click on Means.</emphasis></para>
+    <para id="id1164269917809"><emphasis>Click on Continue.</emphasis></para>
+    <para id="id1164268842075"><link url="15.2.png/image" window="new">
+		<media id="media2" alt="">
+			<image mime-type="image/png" src="../../media/15.2.png" id="figure2"/>
+		</media>
+	</link></para>
+    <para id="id1164287673861"><emphasis>When the screen below appears, click on Method</emphasis></para>
+    <para id="id1164269816758"><link url="15.3.png/image" window="new">
+		<media id="media3" alt="">
+			<image mime-type="image/png" src="../../media/15.3.png" id="figure3"/>
+		</media>
+	</link></para>
+    <para id="id1164287629757"><emphasis>In the Method screen, we will use the default of Wilks’ lambda.</emphasis></para>
+    <para id="id1164294447722"><emphasis>Click on Continue.</emphasis></para>
+    <para id="id1164286311910"><link url="15.4.png/image" window="new">
+		<media id="media4" alt="">
+			<image mime-type="image/png" src="../../media/15.4.png" id="figure4"/>
+		</media>
+	</link></para>
+    <para id="id1164292211281"><emphasis>Then click on Classify.</emphasis></para>
+    <para id="id1164269913050"><link url="15.5.png/image" window="new">
+		<media id="media5" alt="">
+			<image mime-type="image/png" src="../../media/15.5.png" id="figure5"/>
+		</media>
+	</link></para>
+    <para id="id1164269132351"><emphasis>In the screen that appears, the All groups equal button is already clicked.</emphasis></para>
+    <para id="id1164277616390"><emphasis>Click on Summary table under the Display.</emphasis></para>
+    <para id="id1164268599336"><emphasis>Then click on Continue.</emphasis></para>
+    <para id="id1164269822872"><link url="15.6.png/image" window="new">
+		<media id="media6" alt="">
+			<image mime-type="image/png" src="../../media/15.6.png" id="figure6"/>
+		</media>
+	</link></para>
+    <para id="id1164269879989"><emphasis>We are now ready to have SPSS calculate this procedure.</emphasis></para>
+    <para id="id1164287671188"><emphasis>Click on OK.</emphasis></para>
+    <para id="id1164293526776"><link url="15.7.png/image" window="new">
+		<media id="media7" alt="">
+			<image mime-type="image/png" src="../../media/15.7.png" id="figure7"/>
+		</media>
+	</link></para>
+    <para id="id1164286324395"><emphasis>After clicking on OK, SPSS should send you to your output file. If not, click on the Output icon at the bottom of your screen.</emphasis></para>
+    <para id="id1164286252021"><link url="15.8.png/image" window="new">
+		<media id="media8" alt="">
+			<image mime-type="image/png" src="../../media/15.8.png" id="figure8"/>
+		</media>
+	</link></para>
+    <para id="id1164286666729"><emphasis>In the output screen, you should have the following output.</emphasis></para>
+    
+    <para id="eip-951"><emphasis>The first table shows you how many of your participants’ data were used in the analysis. In this example, we had a total of 52 participants whose data were not analyzed.</emphasis></para><para id="id1164269764384"><link url="15.9.png/image" window="new">
+		<media id="media9" alt="">
+			<image mime-type="image/png" src="../../media/15.9.png" id="figure9"/>
+		</media>
+	</link></para>
+    <para id="id1164294212247"><emphasis>The second table in the output tells us we have 571 boys in group one and 559 girls in group two.</emphasis></para>
+    <para id="id1164294321683"><link url="15.10.png/image" window="new">
+		<media id="media10" alt="">
+			<image mime-type="image/png" src="../../media/15.10.png" id="figure10"/>
+		</media>
+	</link></para>
+  </content>
+</document>
